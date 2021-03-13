@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies.com</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbarContainer">
+        <div class="logoContainer"><h1 class="logo">Movies</h1></div>
+        <div class="menuContainer">
+          <ul class="menuList">
+            <li class="menuListItem active">Home</li>
+            <li class="menuListItem">Movies</li>
+            <li class="menuListItem">Series</li>
+            <li class="menuListItem">Popular</li>
+            <li class="menuListItem">Trends</li>
+          </ul>
+        </div>
+        <div class="profileContainer">
+          <img class="profilePicture" src="me.JPG" alt="" />
+          <div class="profileTextContainer">
+            <span class="profileText">Profile</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <i class="leftMenuIcons fas fa-search"></i>
+      <i class="leftMenuIcons fas fa-home"></i>
+      <i class="leftMenuIcons fas fa-user"></i>
+      <i class="leftMenuIcons fas fa-bookmark"></i>
+      <i class="leftMenuIcons fas fa-tv"></i>
+      <i class="leftMenuIcons fas fa-hourglass-half"></i>
+      <i class="leftMenuIcons fas fa-shopping-cart"></i>
+    </div>
+
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('f-1.jpg');
+          "
+        >
+          <img class="featured-title" src="f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Django Unchained premiered at the Ziegfeld Theatre in New York City
+            on December 11, 2012, and was theatrically released on December 25,
+            2012, in the United States, grossing over $425 million worldwide
+            against its $100 million budget, becoming Tarantino's
+            highest-grossing movie to date.
+          </p>
+          <button class="featured-button">Watch Now</button>
+        </div>
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">New Releases</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <!--1-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="9.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+
+              <!--2-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="8.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--3-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="5.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--4-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="6.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--5-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="7.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--6-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="10.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--7-->
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-image"
+                  lorem0
+                  src="11.jpg"
+                  alt=""
+                />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">2018</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <!--1-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="5.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+
+              <!--2-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="6.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--3-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="7.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--4-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="8.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--5-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="9.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--6-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="10.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--7-->
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-image"
+                  lorem0
+                  src="11.jpg"
+                  alt=""
+                />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">2016</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <!--1-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="12.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+
+              <!--2-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="14.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--3-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="15.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--4-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="16.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorem.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--5-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="17.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--6-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="5.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--7-->
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-image"
+                  lorem0
+                  src="11.jpg"
+                  alt=""
+                />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">2020</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <!--1-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="6.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+
+              <!--2-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="7.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--3-->
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="8.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--4-->
+
+              <!--5-->
+              <!--6-->
+
+              <div class="movie-list-item">
+                <img class="movie-list-item-image" src="9.jpg" alt="" />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <!--7-->
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-image"
+                  lorem0
+                  src="10.jpg"
+                  alt=""
+                />
+                <span class="movie-list-item-title">lorem</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolorlorem
+                  
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+            <div
+              class="featured-content"
+              style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0),
+                    #151515
+                  ),
+                  url('f-2.jpg');
+              "
+            >
+              <img class="featured-title" src="f-t-2.png" alt="" />
+              <p class="featured-desc">
+                The Dark is a 2018 Austrian horror film written and directed by
+                Justin P. Lange and starring Nadia Alexander, Toby Nichols, and
+                Karl Markovics. The plot features an undead teenage girl
+                befriending an abused, blind boy and regaining humanity in the
+                process.
+              </p>
+              <button class="featured-button">Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
